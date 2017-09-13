@@ -3,7 +3,8 @@
 A tool in purpose of killing CPU to specific usage, support both Linux and Windows
 
 
-**Usage**
+**_Usage_**
+
 For instance, killng CPU usage to 75% percentages:
 ```
 $ python punchcpu 75 
@@ -21,19 +22,17 @@ CPU clocks per second: 2294000000
 started process on core 1 ...
 ```
 
-**Work out number of CPU clocks per seconds?**
+**_Work out number of CPU clocks per seconds?_**
 ```
-f(h,i) = (h * 10^9 * 2) / i
+f(h, i) = (h * 10^9 * 2) / i
 
 where: 
 h: CPU GHz
-
 2: average number of instructions per clock of modern CPU
-
 I: instructions per iteration
 ```
 
-**Dissect Iteration**
+**_Dissect Iteration_**
 
 ```
 def iteration():
