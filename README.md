@@ -4,22 +4,22 @@ A tool in purpose of killing CPU to specific usage, support both Linux and Windo
 
 
 **Usage**
-
 For instance, killng CPU usage to 75% percentages:
-
-_$ python punchcpu 75 
+```
+$ python punchcpu 75 
 CPU MHz: 2294
 CPU cores: 2
-CPU USAGE: 80
-CPU CORES: 2
+CPU usage: 80
+
+started process on core 0 ...
+started process on core 1 ...
+
+CPU clocks per second: 2294000000
 started process on core 0 ...
 
 CPU clocks per second: 2294000000
 started process on core 1 ...
-
-CPU clocks per second: 2294000000
-started process on core 2 ..._
-
+```
 
 **Work out number of CPU clocks per seconds?**
 ```
