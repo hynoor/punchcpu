@@ -44,7 +44,7 @@ dis.dis(iteration)
     3  LOAD_GLOBAL          0 (range)
     6  LOAD_CONST           1 (100)
     9  CALL_FUNCTION        1 (1 positional, 0 keyword pair)   # 'yield' roughly generates 50 machine instructions
-    12 GET_ITERA
+    12 GET_ITER
     13 FOR_ITER             6 (to 22)
     16 STORE_FAST           0 (_)
 
