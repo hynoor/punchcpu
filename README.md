@@ -1,13 +1,13 @@
 # punchcpu
 
-A tool in purpose of killing CPU to specific usage, support both Linux and Windows
+A handy tool on purpose of killing CPU to specific usage, support both Linux and Windows systems
 
 
 **_Usage_**
 
-For instance, killng CPU usage to 75% percentages:
+For instance, killng CPU usage to 75% percents:
 ```
-$ python punchcpu 75 
+$ python punchcpu.py 75 
 CPU MHz: 2294
 CPU cores: 2
 CPU usage: 80
@@ -23,6 +23,7 @@ started process on core 1 ...
 ```
 
 **_Work out number of CPU clocks per seconds?_**
+
 ```
 f(h, i) = (h * 10^9 * 2) / i
 
